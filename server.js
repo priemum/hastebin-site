@@ -3,7 +3,7 @@ const app = express();
 const {
     JsonDatabase,
     YamlDatabase
-} = require("wio.db");
+} = require("wio.db"); 
 
 const db = new JsonDatabase({
   databasePath:"./Database/paste.json"
