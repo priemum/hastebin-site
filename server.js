@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 const {
     JsonDatabase,
-    YamlDatabase
+    YamlDatabase      
 } = require("wio.db");
 
 const db = new JsonDatabase({
